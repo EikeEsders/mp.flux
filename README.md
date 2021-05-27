@@ -3,9 +3,7 @@ This is a basic particle detection algorithm that was created as a side project 
 
 It is probably not the most efficient algorithm, but it worked so far for me ;)
 
-# What can it be used for ?
-
-I used it to separate particles from a background. One first step is to determine a color intensity threshold (CIT),
+I used the algorithm on image data to separate particles from a background. One first step is to determine a color intensity threshold (CIT),
 which converts the image into a bit image. Thus, either a pixel has a color intensity above the threshold and
 is set to one or it is below the threshold and it is set to zero.
 
@@ -20,6 +18,16 @@ The standard outputs are two tables:
 - setup_data_info_[CIT].csv This table contains information about the camera setup.
 
 The file name is saved with the used CIT value, so if you used multiple CITs on the same data set you can match the tables to the CIT.
+
+Very usefull for me was:
+
+- filter_image : Creates an grayscale image of the particles that were detected by the algorithm.
+
+# image metadata
+
+To use the image metadata functions you need to install exiftool.
+
+https://exiftool.org/
 
 # Julia version
 
