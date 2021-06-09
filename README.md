@@ -1,13 +1,13 @@
-# mp.flux (STILL WORKING ON THIS REPOSITORY)
+# mp_flux (STILL WORKING ON THIS REPOSITORY)
 This is a basic particle detection algorithm that was created as a side project to my PhD learning julia.
 
-It is probably not the most efficient algorithm, but it worked so far for me ;)
+It is probably not the most efficient algorithm, but it is sufficient for my needs.
 
 # how to use
 
 Use an IDE of your choice, I really liked to use atom for this.
 
-Source the basic_function.jl, source the mp.flux_metastructure.jl, use the mp.juno.jl to configure the algorithm and run it when ready.
+Source the basic_function.jl, source the mp_flux_metastructure.jl, use the mp.juno.jl to configure the algorithm and run it when ready.
 
 # Description of the algorithm
 
@@ -21,7 +21,7 @@ The algorithm can return several outputs.
 The standard outputs are two tables:
 
 - particle_hist_data_[CIT].csv This table contains the size (number of pixels a particle contains) and the time (timestamp of the image the data was extracted from). For now there is also a type variable, which says "pre", which is a relict from older versions. It does not have a real meaning.
-- setup_data_info_[CIT].csv This table contains information about the camera setup.
+- setup_data_info_[CIT].csv This table contains information about the camera setup. 
 
 The file name is saved with the used CIT value, so if you used multiple CITs on the same data set you can match the tables to the CIT.
 
