@@ -1,4 +1,4 @@
-# mp_flux (STILL WORKING ON THIS REPOSITORY)
+# mp_flux
 This is a basic particle detection algorithm that was created as a side project to my PhD learning julia.
 
 It is probably not the most efficient algorithm, but it is sufficient for my needs.
@@ -9,9 +9,11 @@ Use an IDE of your choice, I really liked to use atom for this.
 
 Source the basic_function.jl, source the mp_flux_metastructure.jl, use the mp.juno.jl to configure the algorithm and run it when ready.
 
+I uploaded three test files.
+
 # Description of the algorithm
 
-One first step is to determine a color intensity threshold (CIT), which converts the image into a bit image. Thus, either a pixel has a color intensity above the threshold and is set to one or it is below the threshold and it is set to zero.
+The first step is to determine a color intensity threshold (CIT), which converts the image into a bit image. Thus, either a pixel has a color intensity above the threshold and is set to one or it is below the threshold and it is set to zero.
 
 The remaining pixels are checked for connections. Only horizontal and vertical connections are recognized. An
 option to also recognize diagonal connections it not implemented.
