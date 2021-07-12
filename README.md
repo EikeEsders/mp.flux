@@ -7,7 +7,7 @@ It is probably not the most efficient algorithm, but it is sufficient for my nee
 
 Use an IDE of your choice, I really liked to use atom for this.
 
-Source the basic_function.jl, source the mp_flux_metastructure.jl, use the mp.juno.jl to configure the algorithm and run it when ready.
+Source the basic_function.jl, source the mp.flux.jl
 
 I uploaded three test files.
 
