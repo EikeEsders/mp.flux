@@ -1,4 +1,4 @@
-# mp_flux
+# mp.flux
 This is a basic particle detection algorithm that was created as a side project to my PhD learning julia.
 
 It is probably not the most efficient algorithm, but it is sufficient for my needs.
@@ -7,7 +7,7 @@ It is probably not the most efficient algorithm, but it is sufficient for my nee
 
 Use an IDE of your choice, I really liked to use atom for this.
 
-Source the basic_function.jl, source the mp.flux.jl
+Source the basic_function.jl and source the mp.flux.jl
 
 I uploaded three test files.
 
